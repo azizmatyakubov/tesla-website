@@ -3,6 +3,7 @@ import styled from "styled-components";
 const Header = () => {
   return (
     <Container>
+      {/* Tesla Logo  */}
       <a href="./Main">
         <img src="/images/logo.svg" alt="" srcset="" />
       </a>
@@ -17,6 +18,7 @@ const Header = () => {
         <a href="./Account">Account</a>
 
         <MenuIconContainer>
+          {/* Hamburger Icon  */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="18"
